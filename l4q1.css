@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    color: #eeeeee;
+}
+.flexbox-container {
+    display: flex;
+    flex-direction: column;
+}
+.flexboxes {
+    padding: 5px;
+    margin: 3px;
+}
+.header {
+    height: 30px;
+    background-color: deepskyblue;
+    min-width: 100px;
+}
+.flexbox-page {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+.hero {
+    background-color: red;
+    min-height: 100px;
+}
+.conbar {
+    display: flex;
+    flex-wrap: wrap;
+}
+.content {
+    background-color: limegreen;
+    width: 200px;
+    flex-grow: 1;
+    min-height: 200px;
+}
+.sidebar {
+    background-color: blueviolet;
+    width: 100px;
+    flex-grow: 1;
+    min-height: 100px;
+}
+.footer {
+    height: 30px;
+    background-color: gray;
+}
